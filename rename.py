@@ -12,7 +12,7 @@ for i in range(0,a):
 from PIL import Image
 
 
-files = os.listdir(os.getycwd())
+files = os.listdir(os.getcwd())
 
 for file in files:
 	im = Image.open(file)
