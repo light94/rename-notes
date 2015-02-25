@@ -22,3 +22,6 @@ def rename(directory,rot= False):
 			if length>breadth :
 				newimage = im.rotate(-90)
 				newimage.save(file)
+
+
+

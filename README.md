@@ -2,14 +2,16 @@ Rename-Notes is a python script for students to help them organize their gathere
 
 Usage:
 
->>>import rotnotes
->>>rotnotes.rename('path_to_your_notes_directory')
+`>>>import rotnotes`
+`>>>rotnotes.rename('path_to_your_notes_directory')`
 
 or 
 
->>>rotnotes.rename('path_to_your_notes_directory',True) #to rotate notes as well
+`>>>rotnotes.rename('path_to_your_notes_directory',True) #to rotate notes as well`
 
 
 To begin using, just do:
 
 ***pip install rotnotes***
+To install dependencies:<br>
+pip install -r requirements.txt
