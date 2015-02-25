@@ -8,3 +8,8 @@ Usage:
 or 
 
 >>>rotnotes.rename('path_to_your_notes_directory',True) #to rotate notes as well
+
+
+To begin using, just do:
+
+***pip install rotnotes***
