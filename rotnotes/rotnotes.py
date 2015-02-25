@@ -11,8 +11,10 @@ def rename(directory,rot= False):
 		os.rename(e[i],str(i+1)+".jpg")
 
 	if rot!=False:
-		from PIL import Image
-
+		try:
+			from PIL import Image
+		except:
+			return 'You have not installed all dependencies for the app. Please cd to the location where you downloaded the project and do pip install -r requirements.txt'
 
 		files = os.listdir(os.getcwd())
 
